@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .h2{
+        @apply md:text-2xl text-lg text-[#333333] font-semibold pt-6 pb-3
+    }
+    .lidesign{
+        @apply bg-[#E6EBF3] w-[300px] lg:w-[570px] rounded-[30px] text-center py-2 mb-4 hover:scale-105 hover:transition-all font-semibold
+    }
+}
