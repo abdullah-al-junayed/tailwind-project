@@ -1,1 +1,7 @@
-/main.html /
+[[redirects]]
+  from = "/"
+  to = "/main"
+  status = 301
+  force = false
+  query = {path = ":/main.html"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
